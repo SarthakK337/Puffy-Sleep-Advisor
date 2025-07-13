@@ -80,8 +80,8 @@ def format_context(scraped_data):
     return context_str
 
 # Streamlit app setup
-st.set_page_config(page_title="Puffy Sleep Expert", page_icon="🛌")
-st.title("🛌 Puffy Sleep Advisor")
+st.set_page_config(page_title="Puffy Sleep Expert", page_icon="💤")
+st.title("💤 Puffy Sleep Advisor")
 st.caption("Ask me anything about mattresses, policies, or sleep technology")
 
 # Initialize session states
