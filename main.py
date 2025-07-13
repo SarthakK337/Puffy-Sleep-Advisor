@@ -47,7 +47,7 @@ def scrape_puffy_site(urls):
             
             scraped_data.append({
                 "url": url,
-                "content": text[:50000],  # Limit to 20k chars per page
+                "content": text[:57000],  # Limit to 20k chars per page
                 "product_links": product_links
             })
             
