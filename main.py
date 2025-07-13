@@ -155,7 +155,7 @@ if prompt := st.chat_input("Ask about Puffy mattresses..."):
             response = model.generate_content(
                 full_prompt,
                 generation_config=genai.types.GenerationConfig(
-                    temperature=0.3,
+                    temperature=0.2,
                     max_output_tokens=500
                 )
             )
