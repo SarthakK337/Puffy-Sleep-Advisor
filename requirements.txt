@@ -10,6 +10,6 @@ google-genai==1.21.1
 pipreqs
 langchain
 langchain-community
-google-generativeai==0.5.4
-beautifulsoup4==4.12.3
-tiktoken==0.6.0
+google-generativeai
+beautifulsoup4
+tiktoken
