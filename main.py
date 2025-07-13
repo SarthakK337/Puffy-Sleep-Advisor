@@ -47,7 +47,7 @@ def scrape_puffy_site(urls):
             
             scraped_data.append({
                 "url": url,
-                "content": text[:20000],  # Limit to 20k chars per page
+                "content": text[:50000],  # Limit to 20k chars per page
                 "product_links": product_links
             })
             
@@ -155,7 +155,7 @@ if prompt := st.chat_input("Ask about Puffy mattresses..."):
             response = model.generate_content(
                 full_prompt,
                 generation_config=genai.types.GenerationConfig(
-                    temperature=0.2,
+                    temperature=0.3,
                     max_output_tokens=500
                 )
             )
