@@ -145,7 +145,7 @@ if prompt := st.chat_input("Ask about Puffy mattresses..."):
             3. Remember previous questions and answers
             4. When recommending products, include the EXACT product name and URL from the context
             5. Format product recommendations as: [Product Name](URL)
-            6. If answer isn't in context, say "I don't have that information, but you can contact support@puffy.com"
+            6. If answer isn't in context, say "I have limited information on this topic, but I recommend reaching out to their support team at support@puffy.com for more detailed assistance."
             
             **QUESTION**: {prompt}
             **ANSWER**:
