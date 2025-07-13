@@ -8,7 +8,7 @@ openai==1.91.0
 anthropic==0.55.0
 google-genai==1.21.1
 pipreqs
-langchain==0.1.20
+langchain
 langchain-community
 google-generativeai==0.5.4
 beautifulsoup4==4.12.3
